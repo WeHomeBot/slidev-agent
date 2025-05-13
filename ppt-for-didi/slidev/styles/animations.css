@@ -1,0 +1,18 @@
+/* 自定义动画效果 */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* 悬停时停止动画，展示更醒目的效果 */
+.group:hover .animate-pulse-slow {
+  animation: none;
+}

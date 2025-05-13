@@ -1,0 +1,12 @@
+/* 引入自定义动画样式 */
+@import './animations.css';
+
+/* 全局样式 */
+:root {
+  --slidev-theme-primary: #5d8392;
+}
+
+/* 链接图标增强样式 */
+.link-icon-enhanced {
+  filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.5));
+}
