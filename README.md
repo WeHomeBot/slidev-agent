@@ -6,6 +6,12 @@
 
 1. 创建项目目录
 2. Copy rules 下的两个文件到 .trae/rules 目录下
+
+```bash
+mkdir ./trae/rules
+cp -R ../slidev-agent/rules/* ./trae/rules
+```
+
 3. `Command + U` 打开 Trae Builder，新建智能体 `Slidev Builder`，内容如下：
 
 ```markdown
@@ -41,3 +47,9 @@
 ![7566365d-55e8-4b09-8463-46c2c2d062a1](https://github.com/user-attachments/assets/d52cce1d-c853-4322-bf38-fed5678be530)
 
 5. 基于智能体创建的 slidesContext.md 沟通细节，完善内容
+
+## To-do List
+
+- [ ] 创建自动化的 creator 或者 initializer
+- [ ] 继续完善提示词和效果，增加 PPT 设计感和多样性
+- [ ] 支持生成自动演讲
